@@ -19,7 +19,7 @@ const getBaseUrl = () => {
   const localhost = Constants.manifest?.debuggerHost?.split(":")[0];
   if (!localhost)
     throw new Error("failed to get localhost, configure it manually");
-  return `http://${localhost}:3000`;
+  return `https://joses-parking-app-nextjs.vercel.app/`;
 };
 
 /**
